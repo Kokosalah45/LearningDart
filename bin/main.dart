@@ -1,9 +1,11 @@
 import 'package:dart_application_1/employee.dart';
 
 void main() {
-  print(SolveElectronics.nernstEquation('37c', 460, 65, 1));
+  print(SolveElectronics.nernstEquation(
+      temperature: '37c', sI: 80, sO: 540, z: -1));
+
   //////////////////////////////////////
-  var str = 'Hello World';
+  /*var str = 'Hello World';
   print('$str');
   print(str);
   print('hello' + ' world ' + "'test'");
@@ -73,4 +75,6 @@ holy shit i hate my life
   print((8 >> 3).toRadixString(10));
   //////////
   /////////
+ 
+ */ ///
 }
